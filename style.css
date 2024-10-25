@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:black;
+    color: white;
+}
+.left{
+    width: 20vw;
+}
+
+.right{
+    width:80vw;
+    position: relative;
+
+
+}
+.home ul li{
+    display: flex;
+    width: 24px;
+    list-style-type: none;
+    gap: 10px;
+    font-weight: bold;
+    padding-top: 14px;
+}
+.home{
+    padding: 10px;
+}
+.heading{display: flex;
+    width: 24px;
+    gap: 10px;
+    font-weight: bold;
+    padding-top: 14px;
+    align-items: center;
+}
+.library{
+    min-height: 80vh;
+    position:relative;
+}
+.right{
+    margin:16px 0;
+    background-color: rgb(44, 40, 40);
+}
+.footer{
+    display: flex;
+    font-size: 10px;
+    gap: 13px;
+    padding-top: 20px;
+    position: absolute;
+    bottom:0;
+    padding: 10px 0;
+}
+.footer a{
+    color: grey;
+}
+.header{
+    display:flex;
+    justify-content:space-between;
+    background-color: rgb(241, 14, 17);
+}
+.header > *{
+    padding: 15px;
+}
+.spotifyPlaylist{
+    padding:17px;
+}
+.spotifyPlaylist .card {
+    width: 200px;
+    padding: 10px;
+    border-radius:5px;
+    background-color: rgb(254, 48, 48);
+    position:relative;
+
+}
+.cardContainer{
+    display: flex;
+    gap:10px;
+    flex-wrap: wrap;
+    margin: 15px;
+    overflow-y:auto;
+    max-height : 70vh;
+}
+.card >*{
+    padding-top: 10px;
+}
+
+.card img{
+    width :100%;
+    object-fit: contain;
+
+}
+.play{
+    position: absolute;
+    top:168px;
+    right: 17px;
+   display:flex;
+   align-items: center;
+   padding:4px;
+   background-color: aliceblue;
+   border-radius: 50%;
+   border-color: black;
+   opacity: 1;
+   transition: all 1s ease-out;
+
+
+}
+.button > *{
+    margin: 0,12px;
+    gap: 15px;
+
+
+}
+.signupbtn{
+    background-color: red;
+    font-weight: bolder;
+    color: rgba(248, 234, 234, 0.94);
+    border:none;
+    outline:none;
+    cursor: pointer;
+    font-size: 16px;
+
+}
+.signupbtn :hover{
+    font-size: 18px;
+    color: white;
+}
+.loginbtn{
+    background-color: antiquewhite;
+    border-radius: 21px;
+    color: black;
+    font-weight: bolder;
+    padding:10px;
+    width:79px;
+    cursor:pointer;
+}
+.loginbtn:hover{
+    font-weight: bolder;
+    padding:14px;
+}
+.playbar{
+    position:absolute;
+    bottom:0;
+    background-color:whitesmoke;
+    width: 92%;
+    padding:12px;
+    border-width: 10px;
+    border-color: rgb(112, 255, 255);
+}
+.songbutton{
+    display:flex;
+    justify-content: center;
+    gap:16px;
+}
+.songList ul{
+    
+    color:antiquewhite;
+    display: grid;
+    gap: 15px;
+
+}
+.songList ul li{
+    list-style: decimal;
+    display: flex;
+    gap:4px;
+    padding-top: 12px;
+}
